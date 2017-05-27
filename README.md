@@ -1,4 +1,4 @@
 #HelloWorld
 
-Jest to najprostsza wersja serwletu, oparta
-o jedną klasę i mapowanie w pliku _web.xml_.
+Jest to przykład dołączenia obrazków do aplikacji wraz
+z przykładową stroną błędu.
