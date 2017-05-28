@@ -1,3 +1,3 @@
 #HelloWorld
 
-Jest to hello world przy pomocy tagu zrobionego za pomocą klasy.
+Jest to hello world przy pomocy tagu zrobionego za pomocą templatki.
