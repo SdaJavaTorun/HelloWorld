@@ -5,13 +5,23 @@
          version="3.1">
 
     <servlet>
-        <servlet-name>HelloWorld</servlet-name>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>pl.sdacademy.servlet.HelloWorldServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>HelloWorldTemplate</servlet-name>
         <jsp-file>/HelloWorld.jsp</jsp-file>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloWorld</servlet-name>
-        <url-pattern>/</url-pattern>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorldTemplate</servlet-name>
+        <url-pattern>/hello.jsp</url-pattern>
     </servlet-mapping>
 
 </web-app>
